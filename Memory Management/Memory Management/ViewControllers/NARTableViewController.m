@@ -35,7 +35,7 @@
     [super viewDidLoad];
     
     [_contactController addContact:[NARContact contactWithName:@"Nicolas" email:@"nickrios33@yahoo.com" phone:@"951354900"]];
-    [_contactController addContact:[NARContact contactWithName:@"Robin" email:@"chourobin@gmail.com" phone:@"341-000-000"]];
+    [_contactController addContact:[NARContact contactWithName:@"sam" email:@"scottn@gmail.com" phone:@"341-000-000"]];
 
 }
 
@@ -73,13 +73,13 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"AddSegue"])
     {
-        VVSViewController *addVC = [segue destinationViewController];
+        NARViewController *addVC = [segue destinationViewController];
         
         addVC.contactController = self.contactController;
         
     } else if ([[segue identifier] isEqualToString:@"DetailSegue"])
     {
-        VVSViewController *detailVC = [segue destinationViewController];
+        NARViewController *detailVC = [segue destinationViewController];
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         
         detailVC.contactController = self.contactController;

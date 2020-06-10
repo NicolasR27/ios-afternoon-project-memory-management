@@ -39,7 +39,7 @@
     if (self.contact != nil) {
         [self.contactController updateContact:[self contact] withName:name email:email phone:phone];
     } else {
-        NNARContact*newContact = [[NARContact alloc] initWithName:name email:email phone:phone];
+        NARContact*newContact = [[NARContact alloc] initWithName:name email:email phone:phone];
         [self.contactController addContact:newContact];
         [newContact release];
     }

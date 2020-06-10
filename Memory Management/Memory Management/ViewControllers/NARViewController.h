@@ -13,7 +13,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface VVSViewController : UIViewController
+@interface NARViewController : UIViewController
 
 @property (nonatomic, strong) NARContact *contact;
 @property (nonatomic, strong) NARContactController *contactController;
