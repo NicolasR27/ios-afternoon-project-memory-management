@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HIW-cU-yGg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -10,7 +10,7 @@
         <!--Contact-->
         <scene sceneID="VTa-aQ-1hL">
             <objects>
-                <tableViewController id="JFh-2B-A5s" customClass="VVSTableViewController" sceneMemberID="viewController">
+                <tableViewController id="JFh-2B-A5s" customClass="NarTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jBJ-uN-3uh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,11 +40,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Contact" id="wux-lR-THc">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="1YF-3q-Gkf">
-                            <connections>
-                                <segue destination="jJC-yu-jwW" kind="show" identifier="AddSegue" id="kIS-fA-nVz"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="1YF-3q-Gkf"/>
                     </navigationItem>
                     <connections>
                         <segue destination="jJC-yu-jwW" kind="show" identifier="DetailSegue" id="vhd-Ac-KVY"/>
@@ -57,7 +53,7 @@
         <!--Add Contact-->
         <scene sceneID="Ky1-Pa-hHJ">
             <objects>
-                <viewController id="jJC-yu-jwW" customClass="VVSViewController" sceneMemberID="viewController">
+                <viewController id="jJC-yu-jwW" customClass="NARViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yiO-E5-TeU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,17 +126,8 @@
                         <viewLayoutGuide key="safeArea" id="3fV-u6-yGA"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Contact" id="AzB-Fx-lJL">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="8wQ-yj-tsS">
-                            <connections>
-                                <action selector="savePressed:" destination="jJC-yu-jwW" id="YQL-P1-r0S"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="8wQ-yj-tsS"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="emailTextField" destination="gM3-50-d2c" id="owh-JY-hic"/>
-                        <outlet property="nameTextField" destination="DBL-pd-46P" id="QvR-LP-MNo"/>
-                        <outlet property="phoneTextField" destination="xz1-0f-JYa" id="iM9-3W-oJ0"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qLg-py-eW2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,7 +152,4 @@
             <point key="canvasLocation" x="91" y="40"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="vhd-Ac-KVY"/>
-    </inferredMetricsTieBreakers>
 </document>

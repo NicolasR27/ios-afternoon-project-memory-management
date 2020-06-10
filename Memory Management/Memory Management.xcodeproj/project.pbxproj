@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		3EF8D032248EFDBB00D24497 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8D031248EFDBB00D24497 /* AppDelegate.m */; };
 		3EF8D035248EFDBB00D24497 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8D034248EFDBB00D24497 /* SceneDelegate.m */; };
-		3EF8D038248EFDBB00D24497 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8D037248EFDBB00D24497 /* ViewController.m */; };
 		3EF8D03B248EFDBB00D24497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF8D039248EFDBB00D24497 /* Main.storyboard */; };
 		3EF8D03D248EFDBE00D24497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF8D03C248EFDBE00D24497 /* Assets.xcassets */; };
 		3EF8D040248EFDBE00D24497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF8D03E248EFDBE00D24497 /* LaunchScreen.storyboard */; };
 		3EF8D043248EFDBE00D24497 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8D042248EFDBE00D24497 /* main.m */; };
+		3EF8D05424909C2200D24497 /* NARContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8D05324909C2200D24497 /* NARContact.m */; };
+		3EF8D05924909CFD00D24497 /* NARTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8D05824909CFD00D24497 /* NARTableViewController.m */; };
+		3EF8D05C24909D2300D24497 /* NARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8D05B24909D2300D24497 /* NARViewController.m */; };
+		3EF8D05F24909E3200D24497 /* NARContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8D05E24909E3200D24497 /* NARContactController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +25,19 @@
 		3EF8D031248EFDBB00D24497 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3EF8D033248EFDBB00D24497 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3EF8D034248EFDBB00D24497 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3EF8D036248EFDBB00D24497 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EF8D037248EFDBB00D24497 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3EF8D03A248EFDBB00D24497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EF8D03C248EFDBE00D24497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EF8D03F248EFDBE00D24497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EF8D041248EFDBE00D24497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EF8D042248EFDBE00D24497 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EF8D05224909C2200D24497 /* NARContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARContact.h; sourceTree = "<group>"; };
+		3EF8D05324909C2200D24497 /* NARContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARContact.m; sourceTree = "<group>"; };
+		3EF8D05724909CFD00D24497 /* NARTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARTableViewController.h; sourceTree = "<group>"; };
+		3EF8D05824909CFD00D24497 /* NARTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARTableViewController.m; sourceTree = "<group>"; };
+		3EF8D05A24909D2300D24497 /* NARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARViewController.h; sourceTree = "<group>"; };
+		3EF8D05B24909D2300D24497 /* NARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARViewController.m; sourceTree = "<group>"; };
+		3EF8D05D24909E3200D24497 /* NARContactController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NARContactController.h; sourceTree = "<group>"; };
+		3EF8D05E24909E3200D24497 /* NARContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NARContactController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +74,9 @@
 				3EF8D031248EFDBB00D24497 /* AppDelegate.m */,
 				3EF8D033248EFDBB00D24497 /* SceneDelegate.h */,
 				3EF8D034248EFDBB00D24497 /* SceneDelegate.m */,
-				3EF8D036248EFDBB00D24497 /* ViewController.h */,
-				3EF8D037248EFDBB00D24497 /* ViewController.m */,
+				3EF8D05624909C9E00D24497 /* Model Controllers */,
+				3EF8D05124909BF800D24497 /* Model  */,
+				3EF8D04F24909BDC00D24497 /* ViewControllers */,
 				3EF8D039248EFDBB00D24497 /* Main.storyboard */,
 				3EF8D03C248EFDBE00D24497 /* Assets.xcassets */,
 				3EF8D03E248EFDBE00D24497 /* LaunchScreen.storyboard */,
@@ -74,6 +84,35 @@
 				3EF8D042248EFDBE00D24497 /* main.m */,
 			);
 			path = "Memory Management";
+			sourceTree = "<group>";
+		};
+		3EF8D04F24909BDC00D24497 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EF8D05724909CFD00D24497 /* NARTableViewController.h */,
+				3EF8D05824909CFD00D24497 /* NARTableViewController.m */,
+				3EF8D05A24909D2300D24497 /* NARViewController.h */,
+				3EF8D05B24909D2300D24497 /* NARViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3EF8D05124909BF800D24497 /* Model  */ = {
+			isa = PBXGroup;
+			children = (
+				3EF8D05224909C2200D24497 /* NARContact.h */,
+				3EF8D05324909C2200D24497 /* NARContact.m */,
+			);
+			path = "Model ";
+			sourceTree = "<group>";
+		};
+		3EF8D05624909C9E00D24497 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EF8D05D24909E3200D24497 /* NARContactController.h */,
+				3EF8D05E24909E3200D24497 /* NARContactController.m */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF8D038248EFDBB00D24497 /* ViewController.m in Sources */,
+				3EF8D05424909C2200D24497 /* NARContact.m in Sources */,
 				3EF8D032248EFDBB00D24497 /* AppDelegate.m in Sources */,
 				3EF8D043248EFDBE00D24497 /* main.m in Sources */,
 				3EF8D035248EFDBB00D24497 /* SceneDelegate.m in Sources */,
+				3EF8D05C24909D2300D24497 /* NARViewController.m in Sources */,
+				3EF8D05924909CFD00D24497 /* NARTableViewController.m in Sources */,
+				3EF8D05F24909E3200D24497 /* NARContactController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9UNY8645A;
 				INFOPLIST_FILE = "Memory Management/Info.plist";
@@ -306,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9UNY8645A;
 				INFOPLIST_FILE = "Memory Management/Info.plist";
